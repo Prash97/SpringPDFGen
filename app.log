@@ -1,0 +1,254 @@
+2022-11-04 01:24:05.039  INFO 5236 --- [restartedMain] c.s.prashant.SpringPdfGenApplication     : Starting SpringPdfGenApplication using Java 17 on LAPTOP-M7OUDB6A with PID 5236 (C:\Users\PRASHANT\Documents\workspace-spring-tool-suite-4-4.12.1.RELEASE\SpringPDFGen\target\classes started by PRASHANT in C:\Users\PRASHANT\Documents\workspace-spring-tool-suite-4-4.12.1.RELEASE\SpringPDFGen)
+2022-11-04 01:24:05.040  INFO 5236 --- [restartedMain] c.s.prashant.SpringPdfGenApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-11-04 01:24:05.645  INFO 5236 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-04 01:24:05.663  INFO 5236 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interfaces.
+2022-11-04 01:24:05.842  INFO 5236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2022-11-04 01:24:05.844  INFO 5236 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-04 01:24:05.844  INFO 5236 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-04 01:24:05.914  INFO 5236 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-04 01:24:05.915  INFO 5236 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 869 ms
+2022-11-04 01:24:05.930  INFO 5236 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-11-04 01:24:05.933  INFO 5236 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-11-04 01:24:05.933  INFO 5236 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:crm'
+2022-11-04 01:24:05.961  INFO 5236 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-04 01:24:05.972  INFO 5236 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-11-04 01:24:06.020  INFO 5236 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-04 01:24:06.022  INFO 5236 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-04 01:24:06.215  WARN 5236 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-04 01:24:06.261  INFO 5236 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-04 01:24:06.348  INFO 5236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2022-11-04 01:24:06.349  INFO 5236 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-11-04 01:24:06.351  INFO 5236 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-11-04 01:24:06.356  INFO 5236 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-11-04 01:24:06.433  INFO 5236 --- [restartedMain] c.s.prashant.SpringPdfGenApplication     : Started SpringPdfGenApplication in 1.515 seconds (JVM running for 413.599)
+2022-11-04 01:24:06.436  INFO 5236 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-11-04 01:24:24.276  INFO 5236 --- [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-04 01:24:24.277  INFO 5236 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-04 01:24:24.278  INFO 5236 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-11-04 01:24:24.283  INFO 5236 --- [http-nio-8090-exec-2] c.s.p.restcontroller.StudentController   : getById is Called...
+2022-11-04 01:24:24.291  INFO 5236 --- [http-nio-8090-exec-2] c.s.p.restcontroller.StudentController   : Student Id is not found...
+2022-11-04 01:24:34.838  INFO 5236 --- [http-nio-8090-exec-4] c.s.p.restcontroller.StudentController   : getById is Called...
+2022-11-04 01:24:34.841  INFO 5236 --- [http-nio-8090-exec-4] c.s.p.restcontroller.StudentController   : getById is Executed...
+2022-11-04 01:27:29.611  INFO 8300 --- [restartedMain] c.s.prashant.SpringPdfGenApplication     : Starting SpringPdfGenApplication using Java 17 on LAPTOP-M7OUDB6A with PID 8300 (C:\Users\PRASHANT\Documents\workspace-spring-tool-suite-4-4.12.1.RELEASE\SpringPDFGen\target\classes started by PRASHANT in C:\Users\PRASHANT\Documents\workspace-spring-tool-suite-4-4.12.1.RELEASE\SpringPDFGen)
+2022-11-04 01:27:29.616  INFO 8300 --- [restartedMain] c.s.prashant.SpringPdfGenApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-11-04 01:27:29.789  INFO 8300 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-04 01:27:29.790  INFO 8300 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-04 01:27:32.448  INFO 8300 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-04 01:27:32.668  INFO 8300 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 177 ms. Found 1 JPA repository interfaces.
+2022-11-04 01:27:35.314  INFO 8300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2022-11-04 01:27:35.346  INFO 8300 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-04 01:27:35.347  INFO 8300 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-04 01:27:35.575  INFO 8300 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-04 01:27:35.576  INFO 8300 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5784 ms
+2022-11-04 01:27:35.643  INFO 8300 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-04 01:27:36.272  INFO 8300 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-04 01:27:36.305  INFO 8300 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:crm'
+2022-11-04 01:27:36.943  INFO 8300 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-04 01:27:37.131  INFO 8300 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-04 01:27:37.707  INFO 8300 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-04 01:27:38.137  INFO 8300 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-11-04 01:27:39.551  INFO 8300 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-04 01:27:39.582  INFO 8300 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-04 01:27:41.514  WARN 8300 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-04 01:27:42.022  INFO 8300 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-04 01:27:42.508  INFO 8300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2022-11-04 01:27:42.510  INFO 8300 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-11-04 01:27:42.557  INFO 8300 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-11-04 01:27:42.578  INFO 8300 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-11-04 01:27:42.977  INFO 8300 --- [restartedMain] c.s.prashant.SpringPdfGenApplication     : Started SpringPdfGenApplication in 14.689 seconds (JVM running for 16.212)
+2022-11-04 01:28:03.767  INFO 8300 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-04 01:28:03.769  INFO 8300 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-04 01:28:03.773  INFO 8300 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-11-04 01:28:08.792  INFO 8300 --- [http-nio-8090-exec-3] c.s.p.restcontroller.StudentController   : getById is Called...
+2022-11-04 01:28:08.870  INFO 8300 --- [http-nio-8090-exec-3] c.s.p.restcontroller.StudentController   : getById is Executed...
+2022-11-04 01:48:37.501  INFO 8300 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-04 01:48:37.562  INFO 8300 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-04 01:48:37.569  INFO 8300 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-04 01:48:37.585  INFO 8300 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-04 01:48:37.805  WARN 8300 --- [Thread-5] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2022-11-04 01:48:37.806  INFO 8300 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-04 01:48:37.813  INFO 8300 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-04 01:48:37.998  INFO 8300 --- [restartedMain] c.s.prashant.SpringPdfGenApplication     : Starting SpringPdfGenApplication using Java 17 on LAPTOP-M7OUDB6A with PID 8300 (C:\Users\PRASHANT\Documents\workspace-spring-tool-suite-4-4.12.1.RELEASE\SpringPDFGen\target\classes started by PRASHANT in C:\Users\PRASHANT\Documents\workspace-spring-tool-suite-4-4.12.1.RELEASE\SpringPDFGen)
+2022-11-04 01:48:37.999  INFO 8300 --- [restartedMain] c.s.prashant.SpringPdfGenApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-11-04 01:48:39.024  INFO 8300 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-04 01:48:39.058  INFO 8300 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interfaces.
+2022-11-04 01:48:39.404  INFO 8300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2022-11-04 01:48:39.407  INFO 8300 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-04 01:48:39.408  INFO 8300 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-04 01:48:39.480  INFO 8300 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-04 01:48:39.482  INFO 8300 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1469 ms
+2022-11-04 01:48:39.511  INFO 8300 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-11-04 01:48:39.517  INFO 8300 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-11-04 01:48:39.518  INFO 8300 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:crm'
+2022-11-04 01:48:39.579  INFO 8300 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-04 01:48:39.598  INFO 8300 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-11-04 01:48:39.680  INFO 8300 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-04 01:48:39.681  INFO 8300 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-04 01:48:40.030  WARN 8300 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-04 01:48:40.151  INFO 8300 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-04 01:48:40.369  INFO 8300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2022-11-04 01:48:40.371  INFO 8300 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-11-04 01:48:40.375  INFO 8300 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-11-04 01:48:40.382  INFO 8300 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-11-04 01:48:40.539  INFO 8300 --- [restartedMain] c.s.prashant.SpringPdfGenApplication     : Started SpringPdfGenApplication in 2.646 seconds (JVM running for 1273.773)
+2022-11-04 01:48:40.545  INFO 8300 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-11-04 01:49:13.006  INFO 8300 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-04 01:49:13.038  INFO 8300 --- [Thread-8] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-04 01:49:13.048  INFO 8300 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-04 01:49:13.250  WARN 8300 --- [Thread-8] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2022-11-04 01:49:13.253  INFO 8300 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-11-04 01:49:13.254  INFO 8300 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2022-11-04 01:49:13.457  INFO 8300 --- [restartedMain] c.s.prashant.SpringPdfGenApplication     : Starting SpringPdfGenApplication using Java 17 on LAPTOP-M7OUDB6A with PID 8300 (C:\Users\PRASHANT\Documents\workspace-spring-tool-suite-4-4.12.1.RELEASE\SpringPDFGen\target\classes started by PRASHANT in C:\Users\PRASHANT\Documents\workspace-spring-tool-suite-4-4.12.1.RELEASE\SpringPDFGen)
+2022-11-04 01:49:13.460  INFO 8300 --- [restartedMain] c.s.prashant.SpringPdfGenApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-11-04 01:49:14.437  INFO 8300 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-04 01:49:14.514  INFO 8300 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 1 JPA repository interfaces.
+2022-11-04 01:49:14.847  INFO 8300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2022-11-04 01:49:14.850  INFO 8300 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-04 01:49:14.852  INFO 8300 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-04 01:49:14.941  INFO 8300 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-04 01:49:14.942  INFO 8300 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1471 ms
+2022-11-04 01:49:14.968  INFO 8300 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2022-11-04 01:49:14.974  INFO 8300 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2022-11-04 01:49:14.975  INFO 8300 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:crm'
+2022-11-04 01:49:15.038  INFO 8300 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-04 01:49:15.057  INFO 8300 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-11-04 01:49:15.139  INFO 8300 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-04 01:49:15.140  INFO 8300 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-04 01:49:15.474  WARN 8300 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-04 01:49:15.584  INFO 8300 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-04 01:49:15.787  INFO 8300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2022-11-04 01:49:15.789  INFO 8300 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-11-04 01:49:15.790  INFO 8300 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-11-04 01:49:15.801  INFO 8300 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-11-04 01:49:15.942  INFO 8300 --- [restartedMain] c.s.prashant.SpringPdfGenApplication     : Started SpringPdfGenApplication in 2.602 seconds (JVM running for 1309.178)
+2022-11-04 01:49:15.946  INFO 8300 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-11-04 01:49:34.901  INFO 8300 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-04 01:49:34.929  INFO 8300 --- [Thread-12] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-04 01:49:34.938  INFO 8300 --- [Thread-12] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-04 01:49:35.147  WARN 8300 --- [Thread-12] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2022-11-04 01:49:35.151  INFO 8300 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2022-11-04 01:49:35.153  INFO 8300 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2022-11-04 01:49:35.325  INFO 8300 --- [restartedMain] c.s.prashant.SpringPdfGenApplication     : Starting SpringPdfGenApplication using Java 17 on LAPTOP-M7OUDB6A with PID 8300 (C:\Users\PRASHANT\Documents\workspace-spring-tool-suite-4-4.12.1.RELEASE\SpringPDFGen\target\classes started by PRASHANT in C:\Users\PRASHANT\Documents\workspace-spring-tool-suite-4-4.12.1.RELEASE\SpringPDFGen)
+2022-11-04 01:49:35.327  INFO 8300 --- [restartedMain] c.s.prashant.SpringPdfGenApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-11-04 01:49:36.069  INFO 8300 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-04 01:49:36.104  INFO 8300 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
+2022-11-04 01:49:36.346  INFO 8300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2022-11-04 01:49:36.349  INFO 8300 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-04 01:49:36.350  INFO 8300 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-04 01:49:36.421  INFO 8300 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-04 01:49:36.422  INFO 8300 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1090 ms
+2022-11-04 01:49:36.440  INFO 8300 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2022-11-04 01:49:36.448  INFO 8300 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2022-11-04 01:49:36.449  INFO 8300 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:crm'
+2022-11-04 01:49:36.498  INFO 8300 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-04 01:49:36.516  INFO 8300 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-11-04 01:49:36.579  INFO 8300 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-04 01:49:36.579  INFO 8300 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-04 01:49:36.857  WARN 8300 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-04 01:49:36.949  INFO 8300 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-04 01:49:37.140  INFO 8300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2022-11-04 01:49:37.141  INFO 8300 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-11-04 01:49:37.142  INFO 8300 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-11-04 01:49:37.148  INFO 8300 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-11-04 01:49:37.268  INFO 8300 --- [restartedMain] c.s.prashant.SpringPdfGenApplication     : Started SpringPdfGenApplication in 2.03 seconds (JVM running for 1330.503)
+2022-11-04 01:49:37.270  INFO 8300 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-11-04 01:49:50.074  INFO 8300 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-04 01:49:50.132  INFO 8300 --- [Thread-16] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-04 01:49:50.142  INFO 8300 --- [Thread-16] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-04 01:49:50.349  WARN 8300 --- [Thread-16] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2022-11-04 01:49:50.351  INFO 8300 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2022-11-04 01:49:50.354  INFO 8300 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2022-11-04 01:49:50.529  INFO 8300 --- [restartedMain] c.s.prashant.SpringPdfGenApplication     : Starting SpringPdfGenApplication using Java 17 on LAPTOP-M7OUDB6A with PID 8300 (C:\Users\PRASHANT\Documents\workspace-spring-tool-suite-4-4.12.1.RELEASE\SpringPDFGen\target\classes started by PRASHANT in C:\Users\PRASHANT\Documents\workspace-spring-tool-suite-4-4.12.1.RELEASE\SpringPDFGen)
+2022-11-04 01:49:50.530  INFO 8300 --- [restartedMain] c.s.prashant.SpringPdfGenApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-11-04 01:49:51.267  INFO 8300 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-04 01:49:51.298  INFO 8300 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+2022-11-04 01:49:51.536  INFO 8300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2022-11-04 01:49:51.538  INFO 8300 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-04 01:49:51.538  INFO 8300 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-04 01:49:51.609  INFO 8300 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-04 01:49:51.610  INFO 8300 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1075 ms
+2022-11-04 01:49:51.644  INFO 8300 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2022-11-04 01:49:51.678  INFO 8300 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2022-11-04 01:49:51.679  INFO 8300 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:crm'
+2022-11-04 01:49:51.786  INFO 8300 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-04 01:49:51.804  INFO 8300 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-11-04 01:49:51.895  INFO 8300 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-04 01:49:51.895  INFO 8300 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-04 01:49:52.284  WARN 8300 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-04 01:49:52.379  INFO 8300 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-04 01:49:52.539  INFO 8300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2022-11-04 01:49:52.540  INFO 8300 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-11-04 01:49:52.542  INFO 8300 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-11-04 01:49:52.547  INFO 8300 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-11-04 01:49:52.642  INFO 8300 --- [restartedMain] c.s.prashant.SpringPdfGenApplication     : Started SpringPdfGenApplication in 2.191 seconds (JVM running for 1345.876)
+2022-11-04 01:49:52.644  INFO 8300 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-11-04 01:50:13.831  INFO 8300 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-04 01:50:13.868  INFO 8300 --- [Thread-20] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-04 01:50:13.878  INFO 8300 --- [Thread-20] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-04 01:50:14.087  WARN 8300 --- [Thread-20] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2022-11-04 01:50:14.089  INFO 8300 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2022-11-04 01:50:14.090  INFO 8300 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2022-11-04 01:50:14.226  INFO 8300 --- [restartedMain] c.s.prashant.SpringPdfGenApplication     : Starting SpringPdfGenApplication using Java 17 on LAPTOP-M7OUDB6A with PID 8300 (C:\Users\PRASHANT\Documents\workspace-spring-tool-suite-4-4.12.1.RELEASE\SpringPDFGen\target\classes started by PRASHANT in C:\Users\PRASHANT\Documents\workspace-spring-tool-suite-4-4.12.1.RELEASE\SpringPDFGen)
+2022-11-04 01:50:14.227  INFO 8300 --- [restartedMain] c.s.prashant.SpringPdfGenApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-11-04 01:50:14.919  INFO 8300 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-04 01:50:14.952  INFO 8300 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+2022-11-04 01:50:15.179  INFO 8300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2022-11-04 01:50:15.181  INFO 8300 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-04 01:50:15.182  INFO 8300 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-04 01:50:15.244  INFO 8300 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-04 01:50:15.245  INFO 8300 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1010 ms
+2022-11-04 01:50:15.261  INFO 8300 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2022-11-04 01:50:15.266  INFO 8300 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2022-11-04 01:50:15.266  INFO 8300 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:crm'
+2022-11-04 01:50:15.312  INFO 8300 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-04 01:50:15.324  INFO 8300 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-11-04 01:50:15.373  INFO 8300 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-04 01:50:15.374  INFO 8300 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-04 01:50:15.615  WARN 8300 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-04 01:50:15.709  INFO 8300 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-04 01:50:15.870  INFO 8300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2022-11-04 01:50:15.871  INFO 8300 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-11-04 01:50:15.873  INFO 8300 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-11-04 01:50:15.878  INFO 8300 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-11-04 01:50:15.996  INFO 8300 --- [restartedMain] c.s.prashant.SpringPdfGenApplication     : Started SpringPdfGenApplication in 1.827 seconds (JVM running for 1369.231)
+2022-11-04 01:50:16.000  INFO 8300 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-11-04 01:50:36.592  INFO 8300 --- [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-04 01:50:36.594  INFO 8300 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-04 01:50:36.596  INFO 8300 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-04 01:50:36.606  INFO 8300 --- [http-nio-8090-exec-2] c.s.p.restcontroller.StudentController   : getById is Called...
+2022-11-04 01:50:36.628  INFO 8300 --- [http-nio-8090-exec-2] c.s.p.restcontroller.StudentController   : save is Executed...
+2022-11-04 01:50:39.813  INFO 8300 --- [http-nio-8090-exec-3] c.s.p.restcontroller.StudentController   : getById is Called...
+2022-11-04 01:50:39.817  INFO 8300 --- [http-nio-8090-exec-3] c.s.p.restcontroller.StudentController   : Student Id is not found...
+2022-11-04 01:50:45.488  INFO 8300 --- [http-nio-8090-exec-4] c.s.p.restcontroller.StudentController   : getById is Called...
+2022-11-04 01:50:45.495  INFO 8300 --- [http-nio-8090-exec-4] c.s.p.restcontroller.StudentController   : getById is Executed...
+2022-11-04 02:12:11.704  INFO 8300 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-04 02:12:11.748  INFO 8300 --- [Thread-24] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-04 02:12:11.749  INFO 8300 --- [Thread-24] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-04 02:12:11.765  INFO 8300 --- [Thread-24] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-04 02:12:11.979  WARN 8300 --- [Thread-24] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2022-11-04 02:12:11.980  INFO 8300 --- [Thread-24] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2022-11-04 02:12:11.982  INFO 8300 --- [Thread-24] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2022-11-04 02:12:12.181  INFO 8300 --- [restartedMain] c.s.prashant.SpringPdfGenApplication     : Starting SpringPdfGenApplication using Java 17 on LAPTOP-M7OUDB6A with PID 8300 (C:\Users\PRASHANT\Documents\workspace-spring-tool-suite-4-4.12.1.RELEASE\SpringPDFGen\target\classes started by PRASHANT in C:\Users\PRASHANT\Documents\workspace-spring-tool-suite-4-4.12.1.RELEASE\SpringPDFGen)
+2022-11-04 02:12:12.182  INFO 8300 --- [restartedMain] c.s.prashant.SpringPdfGenApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-11-04 02:12:13.151  INFO 8300 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-04 02:12:13.203  INFO 8300 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interfaces.
+2022-11-04 02:12:13.394  INFO 8300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2022-11-04 02:12:13.395  INFO 8300 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-04 02:12:13.395  INFO 8300 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-04 02:12:13.440  INFO 8300 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-04 02:12:13.440  INFO 8300 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1250 ms
+2022-11-04 02:12:13.452  INFO 8300 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2022-11-04 02:12:13.456  INFO 8300 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2022-11-04 02:12:13.457  INFO 8300 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:crm'
+2022-11-04 02:12:13.483  INFO 8300 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-04 02:12:13.491  INFO 8300 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-11-04 02:12:13.528  INFO 8300 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-04 02:12:13.529  INFO 8300 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-04 02:12:13.672  WARN 8300 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-04 02:12:13.724  INFO 8300 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-04 02:12:13.829  INFO 8300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2022-11-04 02:12:13.829  INFO 8300 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-11-04 02:12:13.830  INFO 8300 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-11-04 02:12:13.833  INFO 8300 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-11-04 02:12:13.896  INFO 8300 --- [restartedMain] c.s.prashant.SpringPdfGenApplication     : Started SpringPdfGenApplication in 1.799 seconds (JVM running for 2687.131)
+2022-11-04 02:12:13.898  INFO 8300 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
